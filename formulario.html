@@ -4,6 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de Cadastro</title>
+    <style>
+        body{
+            background-color: azure;}
+        label{
+            color: blue;}
+        .botao{
+            background-color: greenyellow;
+        }
+        .botaoreset{
+            background-color: salmon;
+        }
+    </style>
+    
 </head>
 <body>
     <h1>Formulário de Cadastro</h1>
@@ -14,7 +27,8 @@
         <input id="email" type="email"/><br />
         <label for="passwrd" >Senha:</label>
         <input id="passwrd" type="password"/><br />
-        <button type="submit" >Cadastrar</button>
+        <button class="botaoreset" type="reset" ><b>limpar</b></button>
+        <button class="botao" type="submit" ><b>Cadastrar</b></button>
     </form>
     
 </body>
