@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <nav><a href="./index.html" > HOME </a></nav>
+    <h1>FORMULÁRIOS</h1>
+    <form>
+        <input type="text" placeholder="Seu Nome" /> <br />
+        <label for="email" > Seu E-mail </label>
+        <input id=email type="email" /> <br />
+        <input type="tel" placeholder="Seu Telefone" /> <br />
+        <input type="number" max="10" min="0" step="2" /> <br />
+        <input type="file" /> <br />
+        <input type="color" /> <br />
+        <input type="checkbox" id="checkbox" />
+        <label for="checkbox" >Declaro que sao verdadeiros os dados acima.</label> <br />
+        <hr />
+        <p>Qual sua cor favorita?</p> <br />
+        <input type="radio" name="cor favorita" id="Azul"/> <label for="Azul" >Azul</label> <br />
+        <input type="radio" name="cor favorita" id="Verde"/> <label for="Verde" >Verde</label> <br />
+        <input type="radio" name="cor favorita" id="Vermelho"/> <label for="Vermelho" >Vermelho</label> <br />
+        <br />
+        <label>Qual seu filme favorito?</label> <br />
+        <select multiple>
+            <option>Shrek</option>
+            <option>Rei Leao</option>
+            <option>Deu a Louca na Chapeuzinho</option>
+        </select>
+        <br />
+        <label>Fale um pouco sobre voce: </label> <br />
+        <textarea></textarea>
+        <br />
+        <button type="reset">Limpar</button>
+        <button type="submit">Enviar</button>
+    </form>
+        <hr />
+        <p>
+            <h4><i>O que aprendi?</i></h4>
+            <blockquote>
+                Nesta etapa, apredio o uso de formularios (form). Dentro de form, aprendi a inserçao de caixa para formularios, sendo o primeiro de texto (text), onde deixei
+                direcionado para um texto de nome com o placeholder ¨seu nome", que é a mensagem que vai aparecer na caixa de formulário. Depois aprendi o comando de email 
+                (input type=email), para esse aprendi a colocar um texto de separaçao antes da caixa de texto, para indicar o que o usuario deve preencher (label> Seu e-mail /label)
+                , e para direcionar o usuario para caixa de texo ao clicar na indicaçao do label, inserimos seu id em label, (label for=email), também foi necessário
+                inserir o id em input (input id=email), o que deixou o label assim : label for="email" > Seu E-mail < /label e o input assim : input id=email type="email".
+            </blockquote>
+            <blockquote>
+                Depois, aprendi o type de telefone (type=tel), que em computadores nao aparente ser tao diferente do primeiro campo de texto (text), entretanto, em dispositivos
+                móveis, assim que voce selecionar esta caixa, o teclado que vai abrir é o numérico, facilitando para o usuário. E também aprendi a criar uma caixa numérica, o type=number.
+                Que é uma caixa exclusiva para numeros, além de definir o aspecto máximo (max) o minimo (min) que o usuario pode selecionar e junto de quantos em quantos numero a 
+                contagem deve pular, por exemplo step=2 que vai contar de 2 em 2.
+            </blockquote>
+            <blockquote>
+                Em seguida aprendi a caixa para seleçao de arquivos (type=file) e seleçao de cor (type=color). Também aprendi a caixa de confirmaçao/marcaçao type=checkbox.
+            </blockquote>
+            <blockquote>
+                Também aprendi a fazer uma selecao, com diversas escolhas, com o comando type=radio além de aprender o name=pergunta em questao para poder dizer ao html que 
+                todas as alternarivas estao na mesma pergunta, impedindo assim de que o usuario possa selecionar todas as caixas. E em seguida aprendi o select que abre uma caixa 
+                com as opcoes que a pessoa pode selecionar com o comando options, permitindo assim, uma unica escolha do usuario, mas se for preferivel que possa escolher varias
+                podemos usar o select multiple.
+            </blockquote>
+            <blockquote>
+                E por ultimo, aprendi a acrescentar botoes, com o comando button, que pode ser atribuido uma utilidade com o type selecionado.
+            </blockquote>
+        </p>
+</body>
+</html>
